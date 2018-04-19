@@ -20,6 +20,6 @@ function calculatesFarePrice(start, destination) {
     case distance < 2500 :
       return 25
     case distance > 2500 :
-      return
+      return 'No rides';
   }
 }
