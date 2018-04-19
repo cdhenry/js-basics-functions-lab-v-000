@@ -13,7 +13,8 @@ function distanceTravelledInFeet(start, destination){
 
 function calculatesFarePrice(start, destination) {
   price = (distanceTravelledInFeet(start, destination) - 400) * .02
-  switch (price){
-    case 
+  switch (true) {
+    case price <= 0:
+      
   }
 }
