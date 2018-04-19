@@ -1,14 +1,14 @@
 // Code your solution in this file!
 function distanceFromHqInBlocks(pickup){
-  return Math.abs(pickup - 42)
+  return Math.abs(pickup - 42);
 }
 
 function distanceFromHqInFeet(pickup) {
-  return distanceFromHqInBlocks(pickup) * 264
+  return distanceFromHqInBlocks(pickup) * 264;
 }
 
 function distanceTravelledInFeet(start, destination){
-  return Math.abs(destination - start) * 264
+  return Math.abs(destination - start) * 264;
 }
 
 function calculatesFarePrice(start, destination) {
